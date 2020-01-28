@@ -7,6 +7,7 @@ class Seller {
     this.riseAmount = riseAmount;
     this.dropAmount = dropAmount;
     this.sold = false;
+    this.surplus = 0;
     this.x = x;
     this.y = y;
   }

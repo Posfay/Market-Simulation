@@ -8,6 +8,7 @@ class Buyer {
     this.dropAmount = dropAmount;
     this.maxAcceptedDiff = maxAcceptedDiff;
     this.bought = false;
+    this.surplus = 0;
     this.x = x;
     this.y = y;
   }
