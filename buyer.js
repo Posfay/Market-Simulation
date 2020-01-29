@@ -27,4 +27,10 @@ class Buyer {
     }
   }
 
+  move(velX, velY) {
+
+    this.x += velX;
+    this.y += velY;
+  }
+
 }
